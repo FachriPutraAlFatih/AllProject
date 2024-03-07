@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/black">
+
+    <TableRow
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"/>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/LayarHasil"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            android:text=" "
+            android:textSize="76sp"
+            android:textColor="#FFFFFF"
+            android:textAlignment="textEnd"/>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/tomboltujuh"
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:layout_weight="1"
+            android:background="@drawable/button"
+            android:fontFamily="@font/baloo_paaji"
+            android:text="7"
+            android:textColor="#FDFBF8"
+            android:textSize="40dp"
+            android:textStyle="bold"
+            app:backgroundTint="#000000" />
+
+        <Button
+            android:id="@+id/tomboldelapan"
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:layout_weight="1"
+            android:background="@drawable/button"
+            android:fontFamily="@font/baloo_paaji"
+            android:text="8"
+            android:textColor="#FDFBF8"
+            android:textSize="40dp"
+            android:textStyle="bold"
+            app:backgroundTint="#000000" />
+
+        <Button
+            android:id="@+id/tombolsembilan"
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:layout_weight="1"
+            android:background="@drawable/button"
+            android:fontFamily="@font/baloo_paaji"
+            android:text="9"
+            android:textColor="#FDFBF8"
+            android:textSize="40dp"
+            android:textStyle="bold"
+            app:backgroundTint="#000000" />
+
+        <Button
+            android:id="@+id/tombolBagi"
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:layout_weight="1"
+            android:background="@drawable/button"
+            android:fontFamily="@font/baloo_paaji"
+            android:text="/"
+            android:textColor="#F1B604"
+            android:textSize="40dp"
+            android:textStyle="bold"
+            app:backgroundTint="#000000" />
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/tombolempat"
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:layout_weight="1"
+            android:background="@drawable/button"
+            android:fontFamily="@font/baloo_paaji"
+            android:text="4"
+            android:textColor="#FDFBF8"
+            android:textSize="40dp"
+            android:textStyle="bold"
+            app:backgroundTint="#000000" />
+
+        <Button
+            android:id="@+id/tombollima"
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:layout_weight="1"
+            android:background="@drawable/button"
+            android:fontFamily="@font/baloo_paaji"
+            android:text="5"
+            android:textColor="#FDFBF8"
+            android:textSize="40dp"
+            android:textStyle="bold"
+            app:backgroundTint="#000000" />
+
+        <Button
+            android:id="@+id/tombolenam"
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:layout_weight="1"
+            android:background="@drawable/button"
+            android:fontFamily="@font/baloo_paaji"
+            android:text="6"
+            android:textColor="#FDFBF8"
+            android:textSize="40dp"
+            android:textStyle="bold"
+            app:backgroundTint="#000000" />
+
+        <Button
+            android:id="@+id/tombolKali"
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:layout_weight="1"
+            android:background="@drawable/button"
+            android:fontFamily="@font/baloo_paaji"
+            android:text="*"
+            android:textColor="#F1B604"
+            android:textSize="40dp"
+            android:textStyle="bold"
+            app:backgroundTint="#000000" />
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/tombolsatu"
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:layout_weight="1"
+            android:background="@drawable/button"
+            android:fontFamily="@font/baloo_paaji"
+            android:text="1"
+            android:textColor="#FDFBF8"
+            android:textSize="40dp"
+            android:textStyle="bold"
+            app:backgroundTint="#000000" />
+
+        <Button
+            android:id="@+id/tomboldua"
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:layout_weight="1"
+            android:background="@drawable/button"
+            android:fontFamily="@font/baloo_paaji"
+            android:text="2"
+            android:textColor="#FDFBF8"
+            android:textSize="40dp"
+            android:textStyle="bold"
+            app:backgroundTint="#000000" />
+
+        <Button
+            android:id="@+id/tomboltiga"
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:layout_weight="1"
+            android:background="@drawable/button"
+            android:fontFamily="@font/baloo_paaji"
+            android:text="3"
+            android:textColor="#FDFBF8"
+            android:textSize="40dp"
+            android:textStyle="bold"
+            app:backgroundTint="#000000" />
+
+        <Button
+            android:id="@+id/tombolKurang"
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:layout_weight="1"
+            android:background="@drawable/button"
+            android:fontFamily="@font/baloo_paaji"
+            android:text="-"
+            android:textColor="#F1B604"
+            android:textSize="40dp"
+            android:textStyle="bold"
+            app:backgroundTint="#000000" />
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/tombolKoma"
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:layout_weight="1"
+            android:background="@drawable/button"
+            android:fontFamily="@font/baloo_paaji"
+            android:text=","
+            android:textColor="#FDFBF8"
+            android:textSize="40dp"
+            android:textStyle="bold"
+            app:backgroundTint="#000000" />
+
+        <Button
+            android:id="@+id/tombolnol"
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:layout_weight="1"
+            android:background="@drawable/button"
+            android:fontFamily="@font/baloo_paaji"
+            android:text="0"
+            android:textColor="#FDFBF8"
+            android:textSize="40dp"
+            android:textStyle="bold"
+            app:backgroundTint="#000000" />
+
+        <Button
+            android:id="@+id/tombolC"
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:layout_weight="1"
+            android:background="@drawable/button"
+            android:fontFamily="@font/baloo_paaji"
+            android:text="C"
+            android:textColor="#F1B604"
+            android:textSize="40dp"
+            android:textStyle="bold"
+            app:backgroundTint="#000000" />
+
+        <Button
+            android:id="@+id/tombolTambah"
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:layout_weight="1"
+            android:background="@drawable/button"
+            android:fontFamily="@font/baloo_paaji"
+            android:text="+"
+            android:textColor="#F1B604"
+            android:textSize="40dp"
+            android:textStyle="bold"
+            app:backgroundTint="#000000" />
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/Hasil"
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:layout_weight="4"
+            android:background="@drawable/button"
+            android:fontFamily="@font/baloo_paaji"
+            android:text="="
+            android:textColor="@color/white"
+            android:textSize="40dp"
+            android:textStyle="bold"
+            app:backgroundTint="#F1B604" />
+    </TableRow>
+
+</TableLayout>
